@@ -55,7 +55,7 @@ function add() {
 	addItem(inputBox.val());
 	inputBox.val('');
 
-	saveList();
+	//saveList();
 
 }
 
@@ -68,7 +68,7 @@ function remove(element) {
 	item.find('span').addClass("glyphicon-ok");
 	item.fadeOut(1000, function() {
 		item.remove();
-		saveList();
+		//saveList();
 	});
 
 }
@@ -82,7 +82,7 @@ function clear() {
 	glyph.addClass('glyphicon-ok');
 	items.fadeOut(1000, function() {
 		items.remove();
-		saveList();
+		//saveList();
 	});
 
 }
